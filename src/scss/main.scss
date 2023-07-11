@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&display=swap');
+
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // font-family: 'Belanosima', sans-serif;
+}
+
+
+//HEADER
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+
+    svg {
+        max-width: 3em;
+    }
+
+    .desktop-navs {
+        display: flex;
+        justify-content: space-between;
+        flex-basis: 70%;
+        outline: red solid 1px;
+
+        ul {
+            display: flex;
+            gap: 2em;
+            list-style-type: none;
+
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+//HEADER END
