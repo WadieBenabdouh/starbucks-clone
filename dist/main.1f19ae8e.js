@@ -126,6 +126,16 @@ menu_btn.onclick = function () {
   mobile_menu.classList.toggle("in-action");
   // overlayOne.classList.toggle("active");
 };
+
+var nextButton = document.querySelector("#nextButton");
+var backButton = document.querySelector("#backButton");
+var nextMenu = document.querySelector(".next-menu");
+nextButton.onclick = function () {
+  nextMenu.classList.toggle("in-action");
+};
+backButton.onclick = function () {
+  nextMenu.classList.remove("in-action");
+};
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';

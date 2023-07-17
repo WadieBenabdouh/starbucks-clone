@@ -7,3 +7,15 @@ menu_btn.onclick = () => {
   mobile_menu.classList.toggle("in-action");
   // overlayOne.classList.toggle("active");
 };
+
+const nextButton = document.querySelector("#nextButton");
+const backButton = document.querySelector("#backButton");
+const nextMenu = document.querySelector(".next-menu");
+
+nextButton.onclick = () => {
+  nextMenu.classList.toggle("in-action");
+};
+
+backButton.onclick = () => {
+  nextMenu.classList.remove("in-action");
+};

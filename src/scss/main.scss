@@ -153,7 +153,7 @@ header {
         justify-content: space-between;
         box-shadow: 0px 0px 8px #6e6e6e;
         position: fixed;
-        z-index: 20;
+        z-index: 10;
 
         .desktop-navs {
             display: none;
@@ -167,7 +167,7 @@ header {
             border: none;
             cursor: pointer;
             gap: 4px;
-            z-index: 10;
+            z-index: 20;
 
             span {
                 display: block;
@@ -195,7 +195,7 @@ header {
         display: flex;
         flex-direction: column;
         gap: 3em;
-        background-color: rgb(236, 119, 119);
+        background-color: rgb(255, 255, 255);
         min-height: 100vh;
         padding: 1em 2em;
         position: fixed;
@@ -203,6 +203,7 @@ header {
         width: 80%;
         left: 100%;
         transition: all .2s;
+        // z-index: 25;
 
         .top-menu {
             font-size: 1.5rem;
@@ -216,7 +217,7 @@ header {
                 }
             }
 
-            .chevron:nth-child(1) {
+            .chevron:nth-child(1) a {
                 display: flex;
                 width: 100%;
                 justify-content: space-between;
@@ -269,8 +270,57 @@ header {
 
         }
     }
+
     .mobile-nav.in-action {
         left: 20%;
     }
+
+    .next-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        position: fixed;
+        left: 100%;
+        top: 4.7em;
+        font-size: 1.3rem;
+        width: 80%;
+        background-color: #ffffff;
+        gap: 1.5em;
+        transition: all .2s;
+
+        h3 {
+            width: 100%;
+            padding-inline: 1em;
+            background-color: #e9e9e9;
+            height: 2em;
+            display: flex;
+
+            a {
+                color: #000;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 2em;
+            }
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-left: 2.5em;
+            gap: 2em;
+
+            a {
+                color: #000;
+            }
+        }
+    }
+
+    .next-menu.in-action {
+        left: 20%;
+    }
+
     // HEADER
 }
