@@ -96,9 +96,18 @@ header .desktop-navs .right-links .join-now a:hover {
   header #menu-toggle span {
     display: block;
     height: 3px;
-    background: #000;
+    background: #535353;
     width: 2em;
     transition: all 0.3s;
+  }
+  header #menu-toggle.is-active :nth-child(1) {
+    transform: rotate(-45deg) translate(-3px, 6px);
+  }
+  header #menu-toggle.is-active :nth-child(2) {
+    opacity: 0;
+  }
+  header #menu-toggle.is-active :nth-child(3) {
+    transform: rotate(45deg) translate(-3px, -8px);
   }
   .mobile-nav {
     display: flex;
