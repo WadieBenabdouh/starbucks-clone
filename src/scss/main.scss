@@ -322,5 +322,23 @@ header {
         left: 20%;
     }
 
-    // HEADER
+    // HEADER END
+}
+
+@media screen and (min-width:1080px) {
+    //HEADER
+
+    #menu-toggle {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .next-menu {
+        display: none;
+    }
+
+    //HEADER END
 }

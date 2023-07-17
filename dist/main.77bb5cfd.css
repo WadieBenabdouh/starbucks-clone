@@ -213,5 +213,16 @@ header .desktop-navs .right-links .join-now a:hover {
     left: 20%;
   }
 }
+@media screen and (min-width: 1080px) {
+  #menu-toggle {
+    display: none;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  .next-menu {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
