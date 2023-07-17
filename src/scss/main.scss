@@ -41,7 +41,6 @@ header {
         align-items: center;
         height: 3em;
         flex-basis: 90%;
-        outline: red solid 1px;
 
         ul {
             display: flex;
@@ -183,9 +182,8 @@ header {
         position: fixed;
         top: 6em;
         width: 80%;
-        // right: 100%;
-        left: 20%;
-        transition: all 0.2s;
+        right: 100%;
+        transition: all .2s;
 
         .top-menu {
             font-size: 1.5rem;
@@ -201,7 +199,6 @@ header {
 
             .chevron:nth-child(1) {
                 display: flex;
-                outline: red solid 1px;
                 width: 100%;
                 justify-content: space-between;
             }

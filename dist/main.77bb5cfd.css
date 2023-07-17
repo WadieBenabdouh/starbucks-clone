@@ -34,7 +34,6 @@ header .desktop-navs {
   align-items: center;
   height: 3em;
   flex-basis: 90%;
-  outline: red solid 1px;
 }
 header .desktop-navs ul {
   display: flex;
@@ -111,7 +110,7 @@ header .desktop-navs .right-links .join-now a:hover {
     position: fixed;
     top: 6em;
     width: 80%;
-    left: 20%;
+    right: 100%;
     transition: all 0.2s;
   }
   .mobile-nav .top-menu {
@@ -125,7 +124,6 @@ header .desktop-navs .right-links .join-now a:hover {
   }
   .mobile-nav .top-menu .chevron:nth-child(1) {
     display: flex;
-    outline: red solid 1px;
     width: 100%;
     justify-content: space-between;
   }
