@@ -117,10 +117,55 @@ header {
 
     //burger button
     #menu-toggle {
-        display: none;
+        // display: none;
     }
 
     //burger button end
 }
 
 //HEADER END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    header {
+        justify-content: space-between;
+
+        .desktop-navs {
+            display: none;
+        }
+
+        #menu-toggle {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            gap: 4px;
+            z-index: 100;
+
+            span {
+                display: block;
+                height: 3px;
+                background: #000;
+                width: 2em;
+                transition: all 0.3s;
+            }
+        }
+    }
+}

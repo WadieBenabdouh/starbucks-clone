@@ -72,8 +72,30 @@ header .desktop-navs .right-links .join-now a {
 header .desktop-navs .right-links .join-now a:hover {
   background-color: rgba(0, 0, 0, 0.6980392157);
 }
-header #menu-toggle {
-  display: none;
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: space-between;
+  }
+  header .desktop-navs {
+    display: none;
+  }
+  header #menu-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    gap: 4px;
+    z-index: 100;
+  }
+  header #menu-toggle span {
+    display: block;
+    height: 3px;
+    background: #000;
+    width: 2em;
+    transition: all 0.3s;
+  }
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
