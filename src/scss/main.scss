@@ -141,6 +141,13 @@ header {
 //MEDIA QUERIES//
 
 @media screen and (max-width:768px) {
+
+    // body.active {
+    //     background-color: #2b2a2a;
+    //     overflow: hidden;
+    // }
+
+    // HEADER
     header {
         width: 100%;
         justify-content: space-between;
@@ -170,7 +177,7 @@ header {
                 transition: all 0.3s;
             }
         }
-        
+
         #menu-toggle.is-active :nth-child(1) {
             transform: rotate(-45deg) translate(-3px, 6px);
         }
@@ -262,8 +269,8 @@ header {
 
         }
     }
-
     .mobile-nav.in-action {
         left: 20%;
     }
+    // HEADER
 }
