@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&display=swap');
 
-
+//GENERAL TWEAKS
 *,
 ::before,
 ::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    // font-family: 'Belanosima', sans-serif;
 }
+
+* {
+    font-family: 'Belanosima', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+//GENERAL TWEAKS END
 
 
 //HEADER
@@ -16,7 +29,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1em;
+    padding: 1.5em 1em;
 
     svg {
         max-width: 3em;
@@ -25,7 +38,9 @@ header {
     .desktop-navs {
         display: flex;
         justify-content: space-between;
-        flex-basis: 70%;
+        align-items: center;
+        height: 3em;
+        flex-basis: 90%;
         outline: red solid 1px;
 
         ul {
@@ -37,7 +52,75 @@ header {
                 text-decoration: none;
             }
         }
+
+        //left links
+        .left-links {
+            li {
+                a {
+                    color: #373737;
+                }
+            }
+        }
+
+        //left links end
+
+
+        //right links
+        .right-links>:nth-child(1) {
+            a {
+                //FIND A STORE
+                margin-right: 2em;
+                color: #444444;
+            }
+
+        }
+
+        .right-links>:nth-child(1):hover {
+            a {
+                color: #00754a;
+            }
+        }
+
+        .right-links {
+
+            .sign-in {
+                a {
+                    color: #000;
+                    padding: 7px 20px;
+                    border-radius: 50px;
+                    border: solid 1px #000;
+                }
+
+                a:hover {
+                    background-color: #0000001a;
+                }
+            }
+
+            .join-now {
+                a {
+                    background-color: #000;
+                    color: #fff;
+                    padding: 7px 20px;
+                    border-radius: 50px;
+                }
+
+                a:hover {
+                    background-color: #000000b2;
+                }
+            }
+        }
+
+        //right links end
+
+
     }
+
+    //burger button
+    #menu-toggle {
+        display: none;
+    }
+
+    //burger button end
 }
 
 //HEADER END
