@@ -136,16 +136,16 @@ main {
             align-items: center;
             gap: 2em;
             text-align: center;
-            padding-inline: 2em;
+            padding-inline: 6em;
             background-color: #e5ff67;
 
             h3 {
-                font-size: 2.5rem;
+                font-size: 50px;
                 color: #006241;
             }
 
             p {
-                font-size: 1.9rem;
+                font-size: 1.5rem;
                 color: #006241;
             }
 
@@ -183,12 +183,185 @@ main {
             background-color: #eb81a5;
 
             h3 {
-                font-size: 2.5rem;
+                font-size: 50px;
                 color: #1e3932;
             }
 
             p {
-                font-size: 1.9rem;
+                font-size: 1.5rem;
+                color: #1e3932;
+                width: 80%;
+            }
+
+            a {
+                font-size: 1.2rem;
+                color: #1e3932;
+                border: solid 1px #1e3932;
+                padding: 8px 15px;
+                border-radius: 50px;
+            }
+
+            a:hover {
+                background-color: #d1eb62;
+            }
+        }
+    }
+
+    //card-three
+    .card-three {
+        display: flex;
+
+        .img-three {
+            max-width: 50%;
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2em;
+            text-align: center;
+            padding-inline: 2em;
+            background-color: #e5ff67;
+
+            h3 {
+                font-size: 50px;
+                color: #006241;
+            }
+
+            p {
+                font-size: 1.5rem;
+                color: #006241;
+            }
+
+            a {
+                font-size: 1.2rem;
+                color: #1e3932;
+                border: solid 1px #1e3932;
+                padding: 8px 15px;
+                border-radius: 50px;
+            }
+
+            a:hover {
+                background-color: #d1eb62;
+            }
+        }
+    }
+
+    //card-four
+    .card-four {
+        display: flex;
+        flex-direction: row-reverse;
+
+        .img-four {
+            max-width: 50%;
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2em;
+            text-align: center;
+            padding-inline: 2em;
+            background-color: #fc6446;
+
+            h3 {
+                font-size: 50px;
+                color: #000000;
+            }
+
+            p {
+                font-size: 1.5rem;
+                color: #000000;
+                width: 80%;
+            }
+
+            a {
+                font-size: 1.2rem;
+                color: #000000;
+                border: solid 1px #1e3932;
+                padding: 8px 15px;
+                border-radius: 50px;
+            }
+
+            a:hover {
+                background-color: #d1eb62;
+            }
+        }
+    }
+
+    //card-five
+    .card-five {
+        display: flex;
+
+        .img-five {
+            max-width: 50%;
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2em;
+            text-align: center;
+            padding-inline: 2em;
+            background-color: #1e3932;
+
+            h3 {
+                font-size: 2rem;
+                color: #ffffff;
+            }
+
+            p {
+                font-size: 1.5rem;
+                color: #ffffff;
+                width: 80%;
+            }
+
+            a {
+                font-size: 1.2rem;
+                color: #ffffff;
+                border: solid 1px #ffffff;
+                padding: 8px 15px;
+                border-radius: 50px;
+            }
+
+            a:hover {
+                background-color: #1e221a;
+            }
+        }
+    }
+
+    //card-six
+    .card-six {
+        display: flex;
+        flex-direction: row-reverse;
+
+        .img-six {
+            max-width: 50%;
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2em;
+            text-align: center;
+            padding-inline: 2em;
+            background-color: #e1fccd;
+
+            h3 {
+                font-size: 2rem;
+                color: #1e3932;
+            }
+
+            p {
+                font-size: 1.5rem;
                 color: #1e3932;
                 width: 80%;
             }

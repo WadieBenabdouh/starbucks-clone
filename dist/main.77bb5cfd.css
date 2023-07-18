@@ -92,15 +92,15 @@ main .card-one .description {
   align-items: center;
   gap: 2em;
   text-align: center;
-  padding-inline: 2em;
+  padding-inline: 6em;
   background-color: #e5ff67;
 }
 main .card-one .description h3 {
-  font-size: 2.5rem;
+  font-size: 50px;
   color: #006241;
 }
 main .card-one .description p {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   color: #006241;
 }
 main .card-one .description a {
@@ -131,11 +131,11 @@ main .card-two .description {
   background-color: #eb81a5;
 }
 main .card-two .description h3 {
-  font-size: 2.5rem;
+  font-size: 50px;
   color: #1e3932;
 }
 main .card-two .description p {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   color: #1e3932;
   width: 80%;
 }
@@ -147,6 +147,147 @@ main .card-two .description a {
   border-radius: 50px;
 }
 main .card-two .description a:hover {
+  background-color: #d1eb62;
+}
+main .card-three {
+  display: flex;
+}
+main .card-three .img-three {
+  max-width: 50%;
+}
+main .card-three .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  text-align: center;
+  padding-inline: 2em;
+  background-color: #e5ff67;
+}
+main .card-three .description h3 {
+  font-size: 50px;
+  color: #006241;
+}
+main .card-three .description p {
+  font-size: 1.5rem;
+  color: #006241;
+}
+main .card-three .description a {
+  font-size: 1.2rem;
+  color: #1e3932;
+  border: solid 1px #1e3932;
+  padding: 8px 15px;
+  border-radius: 50px;
+}
+main .card-three .description a:hover {
+  background-color: #d1eb62;
+}
+main .card-four {
+  display: flex;
+  flex-direction: row-reverse;
+}
+main .card-four .img-four {
+  max-width: 50%;
+}
+main .card-four .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  text-align: center;
+  padding-inline: 2em;
+  background-color: #fc6446;
+}
+main .card-four .description h3 {
+  font-size: 50px;
+  color: #000000;
+}
+main .card-four .description p {
+  font-size: 1.5rem;
+  color: #000000;
+  width: 80%;
+}
+main .card-four .description a {
+  font-size: 1.2rem;
+  color: #000000;
+  border: solid 1px #1e3932;
+  padding: 8px 15px;
+  border-radius: 50px;
+}
+main .card-four .description a:hover {
+  background-color: #d1eb62;
+}
+main .card-five {
+  display: flex;
+}
+main .card-five .img-five {
+  max-width: 50%;
+}
+main .card-five .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  text-align: center;
+  padding-inline: 2em;
+  background-color: #1e3932;
+}
+main .card-five .description h3 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+main .card-five .description p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  width: 80%;
+}
+main .card-five .description a {
+  font-size: 1.2rem;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  padding: 8px 15px;
+  border-radius: 50px;
+}
+main .card-five .description a:hover {
+  background-color: #1e221a;
+}
+main .card-six {
+  display: flex;
+  flex-direction: row-reverse;
+}
+main .card-six .img-six {
+  max-width: 50%;
+}
+main .card-six .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  text-align: center;
+  padding-inline: 2em;
+  background-color: #e1fccd;
+}
+main .card-six .description h3 {
+  font-size: 2rem;
+  color: #1e3932;
+}
+main .card-six .description p {
+  font-size: 1.5rem;
+  color: #1e3932;
+  width: 80%;
+}
+main .card-six .description a {
+  font-size: 1.2rem;
+  color: #1e3932;
+  border: solid 1px #1e3932;
+  padding: 8px 15px;
+  border-radius: 50px;
+}
+main .card-six .description a:hover {
   background-color: #d1eb62;
 }
 
