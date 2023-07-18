@@ -587,14 +587,20 @@ main {
 
             .description {
                 padding: 20px 0;
+                line-height: 1.4em;
 
                 h3 {
                     font-size: 1.7rem;
                 }
 
                 p {
-                    font-size: 1.5rem;
+                    font-size: 1.3rem;
                     width: 90%;
+                }
+
+                a {
+                    font-size: 0.8rem;
+                    padding: 5px 10px;
                 }
             }
         }
@@ -608,14 +614,130 @@ main {
 
             .description {
                 padding: 20px 0;
+                line-height: 1.4em;
 
                 h3 {
                     font-size: 1.7rem;
                 }
 
                 p {
-                    font-size: 1.5rem;
+                    font-size: 1.2rem;
                     width: 90%;
+                }
+
+                a {
+                    font-size: 0.8rem;
+                    padding: 5px 10px;
+                }
+            }
+        }
+
+        //
+        .card-three {
+            flex-direction: column;
+
+            .img-three {
+                max-width: 100%;
+            }
+
+            .description {
+                padding: 20px 0;
+                line-height: 1.4em;
+
+                h3 {
+                    font-size: 1.7rem;
+                }
+
+                p {
+                    font-size: 1.3rem;
+                    width: 90%;
+                }
+
+                a {
+                    font-size: 0.8rem;
+                    padding: 5px 10px;
+                }
+            }
+        }
+
+        .card-four {
+            flex-direction: column;
+
+            .img-four {
+                max-width: 100%;
+            }
+
+            .description {
+                padding: 20px 0;
+                line-height: 1.4em;
+
+                h3 {
+                    font-size: 1.7rem;
+                }
+
+                p {
+                    font-size: 1.3rem;
+                    width: 90%;
+                }
+
+                a {
+                    font-size: 0.8rem;
+                    padding: 5px 10px;
+                }
+            }
+        }
+
+        //
+        .card-five {
+            flex-direction: column;
+
+            .img-five {
+                max-width: 100%;
+            }
+
+            .description {
+                padding: 20px 0;
+                line-height: 1.4em;
+
+                h3 {
+                    font-size: 1.3rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                    width: 90%;
+                }
+
+                a {
+                    font-size: 0.8rem;
+                    padding: 5px 10px;
+                }
+            }
+        }
+
+        .card-six {
+            flex-direction: column;
+
+            .img-six {
+                max-width: 100%;
+            }
+
+            .description {
+                padding: 20px 0;
+                line-height: 1.4em;
+
+                h3 {
+                    font-size: 1.3rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                    width: 90%;
+                }
+
+                a {
+                    font-size: 0.8rem;
+                    padding: 5px 10px;
                 }
             }
         }

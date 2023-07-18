@@ -450,13 +450,18 @@ main .card-six .description a:hover {
   }
   main .card-one .description {
     padding: 20px 0;
+    line-height: 1.4em;
   }
   main .card-one .description h3 {
     font-size: 1.7rem;
   }
   main .card-one .description p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     width: 90%;
+  }
+  main .card-one .description a {
+    font-size: 0.8rem;
+    padding: 5px 10px;
   }
   main .card-two {
     flex-direction: column;
@@ -466,13 +471,102 @@ main .card-six .description a:hover {
   }
   main .card-two .description {
     padding: 20px 0;
+    line-height: 1.4em;
   }
   main .card-two .description h3 {
     font-size: 1.7rem;
   }
   main .card-two .description p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 90%;
+  }
+  main .card-two .description a {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  main .card-three {
+    flex-direction: column;
+  }
+  main .card-three .img-three {
+    max-width: 100%;
+  }
+  main .card-three .description {
+    padding: 20px 0;
+    line-height: 1.4em;
+  }
+  main .card-three .description h3 {
+    font-size: 1.7rem;
+  }
+  main .card-three .description p {
+    font-size: 1.3rem;
+    width: 90%;
+  }
+  main .card-three .description a {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  main .card-four {
+    flex-direction: column;
+  }
+  main .card-four .img-four {
+    max-width: 100%;
+  }
+  main .card-four .description {
+    padding: 20px 0;
+    line-height: 1.4em;
+  }
+  main .card-four .description h3 {
+    font-size: 1.7rem;
+  }
+  main .card-four .description p {
+    font-size: 1.3rem;
+    width: 90%;
+  }
+  main .card-four .description a {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  main .card-five {
+    flex-direction: column;
+  }
+  main .card-five .img-five {
+    max-width: 100%;
+  }
+  main .card-five .description {
+    padding: 20px 0;
+    line-height: 1.4em;
+  }
+  main .card-five .description h3 {
+    font-size: 1.3rem;
+  }
+  main .card-five .description p {
+    font-size: 1rem;
+    width: 90%;
+  }
+  main .card-five .description a {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  main .card-six {
+    flex-direction: column;
+  }
+  main .card-six .img-six {
+    max-width: 100%;
+  }
+  main .card-six .description {
+    padding: 20px 0;
+    line-height: 1.4em;
+  }
+  main .card-six .description h3 {
+    font-size: 1.3rem;
+  }
+  main .card-six .description p {
+    font-size: 1rem;
+    width: 90%;
+  }
+  main .card-six .description a {
+    font-size: 0.8rem;
+    padding: 5px 10px;
   }
 }
 @media screen and (min-width: 1080px) {
