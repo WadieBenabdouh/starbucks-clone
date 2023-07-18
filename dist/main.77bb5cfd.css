@@ -288,10 +288,14 @@ main .card-six .description a {
   border-radius: 50px;
 }
 main .card-six .description a:hover {
-  background-color: #d1eb62;
+  background-color: #cde8bd;
 }
 
 @media screen and (max-width: 768px) {
+  body.active {
+    background-color: rgba(0, 0, 0, 0.24);
+    overflow: hidden;
+  }
   header {
     display: flex;
     width: 100%;
@@ -337,12 +341,12 @@ main .card-six .description a:hover {
   .mobile-nav {
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    gap: 4em;
     background-color: rgb(255, 255, 255);
     min-height: 100vh;
     padding: 1em 2em;
     position: fixed;
-    top: 4em;
+    top: 4.5em;
     width: 80%;
     left: 100%;
     transition: all 0.2s;
@@ -362,11 +366,16 @@ main .card-six .description a:hover {
     width: 100%;
     justify-content: space-between;
   }
+  .mobile-nav hr {
+    color: rgba(233, 225, 225, 0.459);
+    width: 70%;
+    align-self: center;
+  }
   .mobile-nav .bottom-menu {
     display: flex;
     flex-direction: column;
     font-size: 1.1rem;
-    gap: 1em;
+    gap: 2em;
   }
   .mobile-nav .bottom-menu ul {
     display: flex;
@@ -569,7 +578,7 @@ main .card-six .description a:hover {
     padding: 5px 10px;
   }
 }
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 769px) {
   #menu-toggle {
     display: none;
   }

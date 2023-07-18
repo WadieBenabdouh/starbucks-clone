@@ -5,7 +5,8 @@ const overlayOne = document.querySelector("body");
 menu_btn.onclick = () => {
   menu_btn.classList.toggle("is-active");
   mobile_menu.classList.toggle("in-action");
-  // overlayOne.classList.toggle("active");
+  nextMenu.classList.remove("in-action"); //genius
+  overlayOne.classList.toggle("active");
 };
 
 const nextButton = document.querySelector("#nextButton");
