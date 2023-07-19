@@ -291,6 +291,18 @@ main .card-six .description a:hover {
   background-color: #cde8bd;
 }
 
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+  padding: 3em 1em;
+}
+aside p {
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.7rem;
+}
+
 @media screen and (max-width: 768px) {
   body.active {
     background-color: rgba(0, 0, 0, 0.24);
@@ -587,6 +599,10 @@ main .card-six .description a:hover {
   }
   .next-menu {
     display: none;
+  }
+  aside {
+    margin: 0 auto;
+    width: 55%;
   }
 }
 

@@ -381,6 +381,20 @@ main {
     }
 }
 
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    padding: 3em 1em;
+
+    p {
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 1.7rem;
+
+    }
+}
+
 //MEDIA QUERIES//
 
 //MOBILE
@@ -769,6 +783,11 @@ main {
 
     .next-menu {
         display: none;
+    }
+
+    aside {
+        margin: 0 auto;
+        width: 55%;
     }
 
 }
