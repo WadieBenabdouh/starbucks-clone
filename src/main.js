@@ -20,3 +20,11 @@ nextButton.onclick = () => {
 backButton.onclick = () => {
   nextMenu.classList.remove("in-action");
 };
+
+//ACCORDION TRICK
+let accordionOpener = document.querySelector("#accordionBtn");
+let wrapper = document.querySelector("#wrapper");
+
+accordionOpener.onclick = () => {
+  wrapper.classList.toggle("is-open");
+};

@@ -136,6 +136,13 @@ nextButton.onclick = function () {
 backButton.onclick = function () {
   nextMenu.classList.remove("in-action");
 };
+
+//ACCORDION TRICK
+var accordionOpener = document.querySelector("#accordionBtn");
+var wrapper = document.querySelector("#wrapper");
+accordionOpener.onclick = function () {
+  wrapper.classList.toggle("is-open");
+};
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&display=swap');
 
 //GENERAL TWEAKS
 *,
@@ -593,7 +593,6 @@ aside {
     .next-menu.in-action {
         left: 20%;
     }
-
     // HEADER END
 
     //MAIN
@@ -765,8 +764,50 @@ aside {
             }
         }
     }
-
     //MAIN END
+
+    // ACCORDIONS
+    .accordions-mobile {
+        padding: 2em 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5em;
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            gap: 2em;
+
+            .accordion {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .links-wrapper {
+                display: grid;
+                grid-template-rows: 0fr;
+                transition: grid-template-rows 0.4s ease-out;
+
+                .inner {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2em;
+                    overflow: hidden;
+
+                    a {
+                        color: #7a7a7a;
+                    }
+                }
+            }
+
+            .links-wrapper.is-open {
+                grid-template-rows: 1fr;
+            }
+        }
+
+    }
+    // ACCORDIONS END
 }
 
 
