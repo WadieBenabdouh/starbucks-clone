@@ -21,7 +21,7 @@ backButton.onclick = () => {
   nextMenu.classList.remove("in-action");
 };
 
-                    //ACCORDION TRICK
+//ACCORDION TRICK
 
 // FIRST ACCORDION
 let accordionOpener = document.querySelector("#accordionBtn");
@@ -32,7 +32,7 @@ accordionOpener.onclick = () => {
 };
 
 // SECOND ACCORDION
-let accordionOpenerTwo = document.querySelector("#accordionBtnTwo")
+let accordionOpenerTwo = document.querySelector("#accordionBtnTwo");
 let wrapperTwo = document.querySelector("#wrapperTwo");
 
 accordionOpenerTwo.onclick = () => {
@@ -40,7 +40,7 @@ accordionOpenerTwo.onclick = () => {
 };
 
 // THIRD ACCORDION
-let accordionOpenerThree = document.querySelector("#accordionBtnThree")
+let accordionOpenerThree = document.querySelector("#accordionBtnThree");
 let wrapperThree = document.querySelector("#wrapperThree");
 
 accordionOpenerThree.onclick = () => {
@@ -48,7 +48,7 @@ accordionOpenerThree.onclick = () => {
 };
 
 // FOURTH ACCORDION
-let accordionOpenerFour = document.querySelector("#accordionBtnFour")
+let accordionOpenerFour = document.querySelector("#accordionBtnFour");
 let wrapperFour = document.querySelector("#wrapperFour");
 
 accordionOpenerFour.onclick = () => {
@@ -56,7 +56,7 @@ accordionOpenerFour.onclick = () => {
 };
 
 // FIFTH ACCORDION
-let accordionOpenerFive = document.querySelector("#accordionBtnFive")
+let accordionOpenerFive = document.querySelector("#accordionBtnFive");
 let wrapperFive = document.querySelector("#wrapperFive");
 
 accordionOpenerFive.onclick = () => {
