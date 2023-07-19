@@ -138,10 +138,40 @@ backButton.onclick = function () {
 };
 
 //ACCORDION TRICK
+
+// FIRST ACCORDION
 var accordionOpener = document.querySelector("#accordionBtn");
 var wrapper = document.querySelector("#wrapper");
 accordionOpener.onclick = function () {
   wrapper.classList.toggle("is-open");
+};
+
+// SECOND ACCORDION
+var accordionOpenerTwo = document.querySelector("#accordionBtnTwo");
+var wrapperTwo = document.querySelector("#wrapperTwo");
+accordionOpenerTwo.onclick = function () {
+  wrapperTwo.classList.toggle("is-open");
+};
+
+// THIRD ACCORDION
+var accordionOpenerThree = document.querySelector("#accordionBtnThree");
+var wrapperThree = document.querySelector("#wrapperThree");
+accordionOpenerThree.onclick = function () {
+  wrapperThree.classList.toggle("is-open");
+};
+
+// FOURTH ACCORDION
+var accordionOpenerFour = document.querySelector("#accordionBtnFour");
+var wrapperFour = document.querySelector("#wrapperFour");
+accordionOpenerFour.onclick = function () {
+  wrapperFour.classList.toggle("is-open");
+};
+
+// FIFTH ACCORDION
+var accordionOpenerFive = document.querySelector("#accordionBtnFive");
+var wrapperFive = document.querySelector("#wrapperFive");
+accordionOpenerFive.onclick = function () {
+  wrapperFive.classList.toggle("is-open");
 };
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
