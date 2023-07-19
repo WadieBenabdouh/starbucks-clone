@@ -626,6 +626,12 @@ aside p {
     justify-content: space-between;
     align-items: center;
   }
+  .accordions-mobile .row .accordion .fa-chevron-down {
+    transition: all 0.2s;
+  }
+  .accordions-mobile .row .accordion .fa-chevron-down.enabled {
+    rotate: 180deg;
+  }
   .accordions-mobile .row .links-wrapper {
     display: grid;
     grid-template-rows: 0fr;

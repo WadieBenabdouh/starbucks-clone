@@ -139,39 +139,49 @@ backButton.onclick = function () {
 
 //ACCORDION TRICK
 
-// FIRST ACCORDION
+// FIRST ACCORDION 1
 var accordionOpener = document.querySelector("#accordionBtn");
 var wrapper = document.querySelector("#wrapper");
+var chevronTick = document.querySelector("#chevronOne");
 accordionOpener.onclick = function () {
   wrapper.classList.toggle("is-open");
+  chevronTick.classList.toggle("enabled");
 };
 
-// SECOND ACCORDION
+// SECOND ACCORDION 2
 var accordionOpenerTwo = document.querySelector("#accordionBtnTwo");
 var wrapperTwo = document.querySelector("#wrapperTwo");
+var chevronTickTwo = document.querySelector("#chevronTwo");
 accordionOpenerTwo.onclick = function () {
   wrapperTwo.classList.toggle("is-open");
+  chevronTickTwo.classList.toggle("enabled");
 };
 
-// THIRD ACCORDION
+// THIRD ACCORDION 3
 var accordionOpenerThree = document.querySelector("#accordionBtnThree");
 var wrapperThree = document.querySelector("#wrapperThree");
+var chevronTickThree = document.querySelector("#chevronThree");
 accordionOpenerThree.onclick = function () {
   wrapperThree.classList.toggle("is-open");
+  chevronTickThree.classList.toggle("enabled");
 };
 
-// FOURTH ACCORDION
+// FOURTH ACCORDION 4
 var accordionOpenerFour = document.querySelector("#accordionBtnFour");
 var wrapperFour = document.querySelector("#wrapperFour");
+var chevronTickFour = document.querySelector("#chevronFour");
 accordionOpenerFour.onclick = function () {
   wrapperFour.classList.toggle("is-open");
+  chevronTickFour.classList.toggle("enabled");
 };
 
-// FIFTH ACCORDION
+// FIFTH ACCORDION 5
 var accordionOpenerFive = document.querySelector("#accordionBtnFive");
 var wrapperFive = document.querySelector("#wrapperFive");
+var chevronTickFive = document.querySelector("#chevronFive");
 accordionOpenerFive.onclick = function () {
   wrapperFive.classList.toggle("is-open");
+  chevronTickFive.classList.toggle("enabled");
 };
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];

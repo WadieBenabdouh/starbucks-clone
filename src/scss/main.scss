@@ -22,6 +22,7 @@ a {
 }
 
 //GENERAL TWEAKS END
+
 // HEADER
 header {
     display: flex;
@@ -826,6 +827,14 @@ aside {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+
+                .fa-chevron-down {
+                    transition: all .2s;
+                }
+
+                .fa-chevron-down.enabled {
+                    rotate: (180deg);
+                }
             }
 
             .links-wrapper {
