@@ -407,11 +407,11 @@ aside {
 // ASIDE END
 
 // ACCORDIONS
-
 .accordions-pc {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 2em 2.5em;
+    gap: 1em;
     border-top: rgba(173, 173, 173, 0.726) solid 1px;
     width: 90%;
 
@@ -436,9 +436,7 @@ aside {
 // ACCORDIONS END
 
 
-
-
-//MEDIA QUERIES//
+///////////S.S.S--------MEDIA QUERIES--------S.S.S///////////
 
 //MOBILE
 @media screen and (max-width:768px) {
