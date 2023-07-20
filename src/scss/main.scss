@@ -439,7 +439,7 @@ aside {
 // ACCORDIONS END
 
 // FOOTER
-footer{
+footer {
     display: flex;
     flex-direction: column;
     padding: 0 1em;
@@ -447,16 +447,16 @@ footer{
     gap: 2em;
     padding-bottom: 3em;
 
-    .socials{
-        ul{
+    .socials {
+        ul {
             display: flex;
             gap: 0.6em;
-            
-            li{
 
-                a{
+            li {
 
-                    i{
+                a {
+
+                    i {
                         font-size: 1.6rem;
                         color: #f8f8f8;
                         border: solid 1px #000;
@@ -469,31 +469,33 @@ footer{
         }
     }
 
-    .footer-links{
+    .footer-links {
 
-        ul{
+        ul {
             display: flex;
             flex-direction: column;
             gap: 1em;
 
-            li{
+            li {
 
-                a{
+                a {
                     color: #000;
                 }
-                a:hover{
+
+                a:hover {
                     text-decoration: underline;
                 }
             }
         }
     }
 
-    h5{
+    h5 {
         font-size: .7rem;
         text-align: center;
         color: #616161;
     }
 }
+
 // FOOTER END
 
 
@@ -935,6 +937,23 @@ footer{
     }
 
     // ACCORDIONS END
+
+    // footer
+    footer {
+
+        .footer-links {
+
+            ul {
+
+                .footer-links-border {
+                    display: none;
+                    //genius
+                }
+            }
+        }
+    }
+
+    // footer end
 }
 
 
@@ -964,5 +983,22 @@ footer{
     }
 
     // accordions end
+
+    // footer
+    footer {
+
+        .footer-links {
+
+            ul {
+                flex-direction: row;
+            }
+        }
+
+        h5 {
+            text-align: start;
+        }
+    }
+
+    // footer end
 
 }

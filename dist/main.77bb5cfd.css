@@ -694,6 +694,9 @@ footer h5 {
   .accordions-pc {
     display: none;
   }
+  footer .footer-links ul .footer-links-border {
+    display: none;
+  }
 }
 @media screen and (min-width: 769px) {
   #menu-toggle {
@@ -711,6 +714,12 @@ footer h5 {
   }
   .accordions-mobile {
     display: none;
+  }
+  footer .footer-links ul {
+    flex-direction: row;
+  }
+  footer h5 {
+    text-align: start;
   }
 }
 
